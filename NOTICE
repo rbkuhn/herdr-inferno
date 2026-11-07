@@ -1,0 +1,18 @@
+Inferno, a Herdr layout
+Copyright 2026 rbkuhn
+
+This product includes software adapted from:
+
+- Herdr (https://herdr.dev): the shipped spaces, tabs, workspace-chrome and
+  pane mods. Licensed under the Apache License, Version 2.0.
+- herdr-traveler (https://github.com/franky5440-afk/herdr-traveler): the
+  traveler-agents, traveler-chrome, traveler-spaces and traveler-tabs mods
+  and the traveler layout. Licensed under the Apache License, Version 2.0.
+
+Changes: renamed to inferno-*. Replaced all art, fonts, theme and sounds.
+Restyled every panel. Replaced the agent sprites with animated sprite strips
+stepped by the agents mod. Replaced the HP/SP bars with Life/Mana orbs. Added
+a Claude Code statusline recorder (scripts/).
+
+Bundled fonts (mods/inferno-chrome/fonts) are licensed under the SIL Open Font
+License 1.1; see OFL-Cinzel.txt and OFL-AlegreyaSans.txt.
