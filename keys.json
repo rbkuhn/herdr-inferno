@@ -1,0 +1,5 @@
+{
+  "layout:inferno": {
+    "ctrl-shift-a": "mod.open:inferno-summon"
+  }
+}

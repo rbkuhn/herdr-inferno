@@ -23,31 +23,10 @@
         },
         {
           "id": "sidebar-lists",
-          "type": "column",
-          "children": [
-            {
-              "id": "spaces",
-              "type": "block",
-              "content": {
-                "mod": "inferno-spaces"
-              },
-              "size": {
-                "weight": 1
-              },
-              "min": 90
-            },
-            {
-              "id": "agents",
-              "type": "block",
-              "content": {
-                "mod": "inferno-agents"
-              },
-              "size": {
-                "weight": 1
-              },
-              "min": 90
-            }
-          ]
+          "type": "block",
+          "content": {
+            "mod": "inferno-tree"
+          }
         },
         {
           "id": "sidebar-footer",
@@ -64,7 +43,7 @@
         }
       ],
       "size": {
-        "px": 268
+        "px": 240
       },
       "min": 44,
       "max": 480,
@@ -87,11 +66,11 @@
           "size": {
             "px": 58
           },
-          "window_drag": true,
           "background": {
             "image": "mods/inferno-chrome/art/frieze.jpg",
             "fit": "cover"
-          }
+          },
+          "window_drag": true
         },
         {
           "id": "work-body",
@@ -105,10 +84,10 @@
                 "pane": {
                   "header": {
                     "content": {
-                      "mod": "pane"
+                      "mod": "inferno-pane"
                     },
                     "reveal": "always",
-                    "height": 30,
+                    "height": 28,
                     "position": "top"
                   },
                   "background": {
@@ -150,13 +129,6 @@
                       "content": {
                         "mod": "changes"
                       }
-                    },
-                    {
-                      "id": "inbox",
-                      "type": "block",
-                      "content": {
-                        "mod": "inbox"
-                      }
                     }
                   ],
                   "active": "files"
@@ -192,21 +164,31 @@
     }
   ],
   "background": "canvas",
+  "theme": "inferno",
+  "ui_font": "Alegreya Sans",
   "terminal_padding": [
     14,
     12
   ],
+  "terminal_opacity": 0.6,
   "divider": {
     "width": 1,
     "color": "#3a2a1a"
   },
+  "floating": [
+    {
+      "id": "layout-sounds",
+      "content": {
+        "mod": "layout-sounds"
+      },
+      "edge": "bottom",
+      "align": "end"
+    }
+  ],
   "titlebar": "none",
   "traffic_lights": [
     12,
     16
   ],
-  "theme": "inferno",
-  "terminal_opacity": 0.6,
-  "ui_font": "Alegreya Sans",
   "preview": "layouts/inferno.png"
 }
